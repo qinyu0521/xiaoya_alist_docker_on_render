@@ -1,0 +1,13 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "bash -c \"$(curl http://docker.xiaoya.pro/update_new.sh)\" -s host": {
+      "name": "bash -c \"$(curl http://docker.xiaoya.pro/update_new.sh)\" -s host",
+      "command": "bash -c \"$(curl http://docker.xiaoya.pro/update_new.sh)\" -s host",
+      "runAtStart": true
+    }
+  }
+}
